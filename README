@@ -1,4 +1,4 @@
 Para comprovar el código simplemente ejecute el programa,
 le pedirá que pase la tarjeta por el lector,  éste funciona como una entrada de teclado,
-por tanto leerá directamente el valor de la tarjeta, 
-una vez hecho el mismo programa traduce el string leído a hexadecimal y lo pasa a mayúsculas.
+por tanto leerá directamente el valor de la tarjeta, una vez hecho eso
+el mismo programa traduce el string leído a hexadecimal y lo pasa a mayúsculas.

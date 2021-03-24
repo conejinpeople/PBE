@@ -64,7 +64,6 @@ class Ventana(Gtk.Window):
         reader = Puzzle1Correccio.Rfid()
         os.system("stty -echo")
         uid = reader.read_uid()
-        os.system("stty echo")
         
         #Cambiamos el texto y el color de la caja     
         self.label.set_label('<span foreground="white" size="x-large">UID: '+uid+'</span>')

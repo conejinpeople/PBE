@@ -13,8 +13,7 @@ class Ventana(Gtk.Window):
         self.connect("destroy", Gtk.main_quit)
         self.set_border_width(10)
         
-        #Creamos una caja para colocar la etiqueta rriba y el boton abajo
-        
+        #Creamos una caja para colocar la etiqueta arriba y el boton abajo
         self.box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=10)
         
         #añadimos la caja a la ventana
